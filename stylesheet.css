@@ -21,6 +21,24 @@
 	background-color: #222;
 }
 
+h2 {
+	font-size: 40px;
+}
+
+. {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.pin-1 {
+	color: yellowgreen;
+}
+
+.bg-foot {
+	background-color: yellowgreen;
+}
+
+
 @media only screen and (min-width: 991.98px) {
 
 header {

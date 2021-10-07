@@ -1,0 +1,31 @@
+.bg-1 {
+	background-color: yellowgreen;
+}
+
+.rounded-circle {
+	border-radius: 50%;
+	max-width: 100%;
+    height: auto;
+	}
+
+.btn {
+	background-color: yellowgreen;
+	border: 0;
+}
+
+#testIt {
+	background-color: white;
+}
+
+.bg-3 {
+	background-color: #222;
+}
+
+@media only screen and (min-width: 991.98px) {
+
+header {
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+

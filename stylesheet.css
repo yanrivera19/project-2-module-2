@@ -25,10 +25,13 @@ h2 {
 	font-size: 40px;
 }
 
-. {
+.position-relative {
+	max-height: 100%;
+}
+/*. {
 	padding-top: 100px;
 	padding-bottom: 100px;
-}
+}*/
 
 .pin-1 {
 	color: yellowgreen;
@@ -38,12 +41,37 @@ h2 {
 	background-color: yellowgreen;
 }
 
+#navbrand, #activLink {
+	color: yellowgreen;
+}
+
+.nbrand a:hover {
+	color: red !important;
+}
+
+.navbar-nav li a:hover {
+	color: yellowgreen !important;
+}
+
+h1 {
+	font-size: 50px;
+}
+
 
 @media only screen and (min-width: 991.98px) {
 
-header {
-	padding-top: 250px;
-	padding-bottom: 250px;
+.navbar {
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+/*header {
+	padding-top: 240px;
+	padding-bottom: 240px;
+}*/
+
+h1 {
+	font-size: 100px;
 }
 
 

@@ -1,20 +1,41 @@
-.bg-1 {
+.bg-1, .btn, .bg-foot {
 	background-color: yellowgreen;
+}
+
+.bg-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-pic-1 {
+	background-image: url(https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+}
+
+.bg-pic-2 {
+	background-image: url(https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);		
 }	
+
+.bg-pic-3 {
+	background-image: url(https://images.unsplash.com/photo-1535353788679-3a28bfcafec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80);
+}	
+
+.bg-pic-4 {
+	background-image: url(https://images.unsplash.com/photo-1604002327242-66576936cb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);	
+}
+
+.bg-pic-3:hover, .bg-pic-2:hover, .bg-pic-4:hover {
+    background-size: 120%;  
+}
 
 .rounded-circle {
 	border-radius: 50%;
 	max-width: 100%;
     height: auto;
-	}
-
-.btn {
-	background-color: yellowgreen;
-	border: 0;
 }
 
-#testIt {
-	background-color: white;
+.btn {
+	border: 0;
 }
 
 .bg-3 {
@@ -25,15 +46,7 @@ h2 {
 	font-size: 40px;
 }
 
-.pin-1 {
-	color: yellowgreen;
-}
-
-.bg-foot {
-	background-color: yellowgreen;
-}
-
-#navbrand, #activLink {
+.pin-1, #navbrand, #activLink {
 	color: yellowgreen;
 }
 
@@ -57,12 +70,12 @@ h1 {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 100px;
 }
 
-.bg-img {
-	padding-top: 200px;
-	padding-bottom: 200px;
+.bg-pic-1 {
+	padding-top: 250px;
+	padding-bottom: 250px;
 }
 
 

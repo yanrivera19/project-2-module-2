@@ -14,18 +14,21 @@
 
 .bg-pic-2 {
 	background-image: url(https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);		
+	transition: transform .3s linear;
 }	
 
 .bg-pic-3 {
 	background-image: url(https://images.unsplash.com/photo-1535353788679-3a28bfcafec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80);
+	transition: transform .3s linear;
 }	
 
 .bg-pic-4 {
 	background-image: url(https://images.unsplash.com/photo-1604002327242-66576936cb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);	
+	transition: transform .3s linear;
 }
 
 .bg-pic-3:hover, .bg-pic-2:hover, .bg-pic-4:hover {
-    background-size: 120%;  
+    transform: scale(1.09);  
 }
 
 .rounded-circle {
@@ -78,4 +81,4 @@ h1 {
 	padding-bottom: 250px;
 }
 
-
+}

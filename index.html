@@ -1,194 +1,300 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<link href="stylesheet.css" rel="stylesheet">
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
 
-	<title>Project 2: Module 2</title>
-</head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  		<div class="container-fluid">
-  			<div class="nbrand">
-		    	<a id="navbrand" class="navbar-brand" href="#"> <i class="fas fa-fire"></i> LOGO</a>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+		/>
+
+		<link href="stylesheet.css" rel="stylesheet" />
+
+		<title>Project 2: Module 2</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="nbrand">
+					<a id="navbrand" class="navbar-brand" href="#">
+						<i class="fas fa-fire"></i> LOGO</a
+					>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								id="activLink"
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>Home</a
+							>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Products</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdownMenuLink"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+								>Services</a
+							>
+
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdownMenuLink"
+							>
+								<li>
+									<a class="dropdown-item" href="#">Engage</a>
+								</li>
+
+								<li>
+									<a class="dropdown-item" href="#"
+										>Pontificate</a
+									>
+								</li>
+
+								<li>
+									<a class="dropdown-item" href="#"
+										>Synergize</a
+									>
+								</li>
+							</ul>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      			<span class="navbar-toggler-icon"></span>
-    		</button>
+		</nav>
+		<main>
+			<header class="bg-img bg-pic-1">
+				<div class="container">
+					<div
+						class="container-fluid content-1 py-5 text-white text-center"
+					>
+						<h1 class="fw-light pb-2">Dramatically Engage</h1>
 
-		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    	<ul class=" navbar-nav ms-auto mb-2 mb-lg-0">
-			        <li class="nav-item">
-	          			<a id="activLink" class="nav-link active" aria-current="page" href="#">Home</a>
-	        		</li>
-
-	        		<li class="nav-item">
-	          			<a class="nav-link" href="#">Products</a>
-	        		</li>
-
-	        		<li class="nav-item dropdown">
-          				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-			          	
-			          	<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			            	<li><a class="dropdown-item" href="#">Engage</a></li>
-			            	
-			            	<li><a class="dropdown-item" href="#">Pontificate</a></li>
-			            	
-			            	<li><a class="dropdown-item" href="#">Synergize</a></li>
-			          	</ul>
-       			 	</li>
-	      
-	        		<li class="nav-item">
-	          			<a class="nav-link" href="#">Contact</a>
-	        		</li>
-		      	</ul>
-		    </div>
-		</div>
-	</nav>
-	<main>
-
-		<header class= "bg-img bg-pic-1">
-			<div class="container">
-				<div class="container-fluid content-1 py-5 text-white text-center">
-	  				<h1 class="fw-light pb-2">Dramatically Engage</h1>
-
-	  				<p class="fw-lighter fs-5 pb-4">Objectively innovate empowered manufactured products whereas parallel platforms.
+						<p class="fw-lighter fs-5 pb-4">
+							Objectively innovate empowered manufactured products
+							whereas parallel platforms.
 						</p>
 
-					<a href="#"class="btn rounded-pill btn-lg btn-success">ENGAGE NOW</a>
+						<a href="#" class="btn rounded-pill btn-lg btn-success"
+							>ENGAGE NOW</a
+						>
+					</div>
 				</div>
-			</div>
-		</header>
+			</header>
 
-		<section class="bg-1">
-			<div class="container py-3">
-				<div class="container-fluid  text-center content-2 text-white py-5">
-				
-				<i class="fa-3x fas fa-apple-alt"></i>
-				
-				<h3 class="pb-2 fs-2 fw-normal">Completely synergize resource taxing relationships</h3>
-				
-				<p class="fs-5 fw-lighter">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+			<section class="bg-1">
+				<div class="container py-3">
+					<div
+						class="container-fluid text-center content-2 text-white py-5"
+					>
+						<i class="fa-3x fas fa-apple-alt"></i>
+
+						<h3 class="pb-2 fs-2 fw-normal">
+							Completely synergize resource taxing relationships
+						</h3>
+
+						<p class="fs-5 fw-lighter">
+							Professionally cultivate one-to-one customer service
+							with robust ideas. Dynamically innovate
+							resource-leveling customer service for state of the
+							art customer service.
+						</p>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section class="bg-white py-5">
-			<div class="container">
-				<div class="container-fluid py-5">
+			<section class="bg-white py-5">
+				<div class="container">
+					<div class="container-fluid py-5">
+						<div class="row">
+							<div class="col-md-6">
+								<img
+									class="img-fluid rounded-circle"
+									src="https://images.unsplash.com/photo-1610101421273-37b47e415de8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80"
+									alt="microphone"
+								/>
+							</div>
+
+							<div class="col-md-6 gy-4 gx-5">
+								<h3 class="fs-2 fw-normal">Best in Class</h3>
+
+								<p class="fs-4 fw-lighter">
+									Holisticly predominate extensible testing
+									procedures for reliable supply chains.
+									Dynamically innovate resource-leveling
+									customer service for state of the art
+									customer service.
+								</p>
+
+								<a
+									href="#"
+									class="btn btn-lg rounded-pill btn-success"
+									>CLASSIFY IT</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="bg-3 py-5">
+				<div class="container">
+					<div class="container-fluid py-5 text-white">
+						<div class="row">
+							<div class="col-md-6 gy-4 gx-5">
+								<h3 class="fs-2 fw-normal">Superior Quality</h3>
+
+								<p class="fs-4 fw-lighter">
+									Holisticly predominate extensible testing
+									procedures for reliable supply chains.
+									Dynamically innovate resource-leveling
+									customer service for state of the art
+									customer service.
+								</p>
+
+								<a
+									href="#"
+									id="testIt"
+									class="btn btn-lg rounded-pill bg-white btn-light"
+									>TEST IT</a
+								>
+							</div>
+
+							<div class="col-md-6">
+								<img
+									class="img-fluid rounded-circle"
+									src="https://images.unsplash.com/photo-1490889737678-4bad47eb1a03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80"
+									alt="taking picture with phone"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container-fluid colu-pic">
 					<div class="row">
-						<div class="col-md-6">
-							<img class="img-fluid rounded-circle" src="https://images.unsplash.com/photo-1610101421273-37b47e415de8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80" alt="microphone">	
-						</div>
-						
-						<div class="col-md-6 gy-4 gx-5">
-							<h3 class="fs-2 fw-normal">Best in Class</h3>
-
-		  					<p class="fs-4 fw-lighter">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.
-							</p>
-
-							<a href="#"class="btn btn-lg rounded-pill btn-success">CLASSIFY IT</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="bg-3 py-5">
-			<div class="container">
-				<div class="container-fluid py-5 text-white">
-					<div class="row">
-						<div class="col-md-6 gy-4 gx-5">
-							<h3 class="fs-2 fw-normal">Superior Quality</h3>
-
-		  					<p class="fs-4 fw-lighter">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.
-							</p>
-
-							<a href="#" id="testIt"class="btn btn-lg rounded-pill bg-white btn-light">TEST IT</a>
+						<div class="col-md-4 px-0 overflow-hidden">
+							<div class="bg-img bg-pic-2 py-4">
+								<div
+									class="content-col-1 py-5 text-center text-white"
+								>
+									<h2>Unleash</h2>
+								</div>
+							</div>
 						</div>
 
-						<div class="col-md-6">
-							<img class="img-fluid rounded-circle" src="https://images.unsplash.com/photo-1490889737678-4bad47eb1a03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80" alt="taking picture with phone">	
+						<div class="col-md-4 px-0 overflow-hidden">
+							<div class="bg-img bg-pic-3 py-4">
+								<div
+									class="content-col-2 py-5 text-center text-white"
+								>
+									<h2>Synergize</h2>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 px-0 overflow-hidden">
+							<div class="bg-img bg-pic-4 py-4">
+								<div
+									class="content-col-3 py-5 text-center text-white"
+								>
+									<h2>Procrastinate</h2>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section>
-			<div class="container-fluid colu-pic">
-				<div class="row">
-	 				<div class="col-md-4 px-0 overflow-hidden">
-	 					<div class="bg-img bg-pic-2 py-4">
-	 						<div class=" content-col-1 py-5 text-center text-white">
-	 							<h2>Unleash</h2>
-	 						</div>
-	 					</div>
-	 				</div>
+			<section class="bg-white">
+				<div class="container">
+					<div class="container-fluid text-center content-2 py-5">
+						<i class="pin-1 fa-3x fas fa-thumbtack"></i>
 
-	 				<div class="col-md-4 px-0 overflow-hidden">
-	 					<div class="bg-img bg-pic-3 py-4 ">
-	 					<div class=" content-col-2 py-5 text-center text-white">
-	 						<h2>Synergize</h2>
-	 					</div>
-	 				</div>
-	 				</div>
+						<h3 class="fs-2 fw-normal">Sanity Check</h3>
 
-	 				<div class="col-md-4 px-0 overflow-hidden">
-	 					<div class="bg-img bg-pic-4 py-4">
-	 					<div class=" content-col-3 py-5 text-center text-white">
-	 						<h2>Procrastinate</h2>
-	 					</div>
-	 				</div>
-	 				</div>
-	 			</div>
-			</div>
-		</section>
+						<p class="fs-4 fw-lighter">
+							Professionally cultivate one-to-one customer service
+							with robust ideas. Dynamically innovate
+							resource-leveling customer service for state of the
+							art customer service.
+						</p>
 
-		<section class="bg-white">
-			<div class="container">
-				<div class="container-fluid  text-center content-2 py-5">
-					<i class="pin-1 fa-3x fas fa-thumbtack"></i>
-					
-					<h3 class="fs-2 fw-normal">Sanity Check</h3>
-					
-					<p class="fs-4 fw-lighter">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-
-					<a href="#"class="btn btn-lg rounded-pill btn-success">CHECK NOW</a>
-				</div>
-			</div>
-		</section>
-
-		<footer>
-			<div class="bg-foot py-4">
-				<div class="container py-4">
-					<div class="container-fluid text-center text-white py-5">
-						<h3 class="fs-2 fw-normal">Contact Us</h3>
-						
-						<i class="fa-3x fas fa-phone-alt"></i>
-						
-						<p class="fs-4 fw-lighter">+1(23) 456 7890</p>
-						
-						<i class="fa-3x fas fa-envelope"></i>
-						
-						<p class="fs-4 fw-lighter">info@example.com</p>
+						<a href="#" class="btn btn-lg rounded-pill btn-success"
+							>CHECK NOW</a
+						>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="container-fluid text-center bg-white py-5">
-				<p>Copyright © Example.com 2015</p>
-			</div>
-		</footer>
-	</main>
+			<footer>
+				<div class="bg-foot py-4">
+					<div class="container py-4">
+						<div
+							class="container-fluid text-center text-white py-5"
+						>
+							<h3 class="fs-2 fw-normal">Contact Us</h3>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</body>
+							<i class="fa-3x fas fa-phone-alt"></i>
+
+							<p class="fs-4 fw-lighter">+1(23) 456 7890</p>
+
+							<i class="fa-3x fas fa-envelope"></i>
+
+							<p class="fs-4 fw-lighter">info@example.com</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid text-center bg-white py-5">
+					<p>Copyright © Example.com 2015</p>
+				</div>
+			</footer>
+		</main>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>

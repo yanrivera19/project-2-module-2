@@ -1,4 +1,6 @@
-.bg-1, .btn, .bg-foot {
+.bg-1,
+.btn,
+.bg-foot {
 	background-color: yellowgreen;
 }
 
@@ -8,33 +10,40 @@
 	background-size: cover;
 }
 
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
 .bg-pic-1 {
 	background-image: url(https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+	background-attachment: fixed;
 }
 
 .bg-pic-2 {
-	background-image: url(https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);		
-	transition: transform .3s linear;
-}	
+	background-image: url(https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+	transition: transform 0.3s linear;
+}
 
 .bg-pic-3 {
 	background-image: url(https://images.unsplash.com/photo-1535353788679-3a28bfcafec1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1770&q=80);
-	transition: transform .3s linear;
-}	
-
-.bg-pic-4 {
-	background-image: url(https://images.unsplash.com/photo-1604002327242-66576936cb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);	
-	transition: transform .3s linear;
+	transition: transform 0.3s linear;
 }
 
-.bg-pic-3:hover, .bg-pic-2:hover, .bg-pic-4:hover {
-    transform: scale(1.09);  
+.bg-pic-4 {
+	background-image: url(https://images.unsplash.com/photo-1604002327242-66576936cb99?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2670&q=80);
+	transition: transform 0.3s linear;
+}
+
+.bg-pic-3:hover,
+.bg-pic-2:hover,
+.bg-pic-4:hover {
+	transform: scale(1.09);
 }
 
 .rounded-circle {
 	border-radius: 50%;
 	max-width: 100%;
-    height: auto;
+	height: auto;
 }
 
 .btn {
@@ -49,7 +58,9 @@ h2 {
 	font-size: 40px;
 }
 
-.pin-1, #navbrand, #activLink {
+.pin-1,
+#navbrand,
+#activLink {
 	color: yellowgreen;
 }
 
@@ -66,19 +77,17 @@ h1 {
 }
 
 @media only screen and (min-width: 991.98px) {
+	.navbar {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
 
-.navbar {
-	padding-right: 80px;
-	padding-left: 80px;
-}
+	h1 {
+		font-size: 100px;
+	}
 
-h1 {
-	font-size: 100px;
-}
-
-.bg-pic-1 {
-	padding-top: 250px;
-	padding-bottom: 250px;
-}
-
+	.bg-pic-1 {
+		padding-top: 250px;
+		padding-bottom: 250px;
+	}
 }
